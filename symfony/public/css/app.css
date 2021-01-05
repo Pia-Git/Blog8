@@ -1,0 +1,19 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.row.post {
+  background-color: #9fcdff;
+  margin-bottom: 15px;
+}
+
+.row.post .img-container {
+  padding-right: 0;
+  text-align: right;
+}
+
+.navbar-nav .nav-item.right .nav-link {
+  position: absolute;
+  right: 0;
+}
